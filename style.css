@@ -94,8 +94,26 @@ body{
     height: 60px;
     width: 60px;
 }
+
+.tooltiptext{
+    visibility: hidden;
+    width: 50px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+  
+    /* Position the tooltip */
+    position: relative;
+    bottom: 85px;
+}
+.ron:hover .tooltiptext{
+    visibility: visible;
+}
 .select .roc:hover {
     -webkit-filter: brightness(90%);
+    
 }
 .select .pap:hover {
     -webkit-filter: brightness(90%);
