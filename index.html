@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stone Paper Scissor</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="nav">Rock Paper Scissor</div>
+        <div class="main">
+            <div class="human">
+                <div id="imag" class="imagm">
+                </div>
+                <div class="select">
+                    <div class="ron">
+                        <input id="sein" type="button" title="Rock" class="roc">
+                        <span class="tooltiptext">Rock</span>
+                        <!-- <div class="name">Rock</div> -->
+                    </div>
+                    <div class="ron">
+                        <input id="seinp" type="button" title="Paper" class="pap">
+                        <span class="tooltiptext">Paper</span>
+                        <!-- <div class="name">Paper</div> -->
+                    </div>
+                    <div class="ron">
+                        <input id="seins" type="button" title="Scissor" class="sci">
+                        <span class="tooltiptext">Scissor</span>
+                        <!-- <div class="name">Scissor</div> -->
+                    </div>
+                </div>
+            </div>
+            <div id="re" class="winlose">
+                <div id="res"></div>
+            </div>
+            <div class="computer">
+                <div id="imgc" class="imgc">
+                </div>
+                <div class="cselec">
+                    <div class="roc"></div>
+                    <div class="pap"></div>
+                    <div class="sci"></div>
+                </div>
+            </div>
+        </div>
+        <div class="counter">
+            <div id="win" class="namew">
+                <div>Win :  </div>
+                <div id="winc" class="padd">0</div>
+            </div>
+            <div id="lose" class="namew">
+                <div>Lose :</div>
+                <div id="losec" class="padd">0</div>
+            </div>
+            <div id="tie" class="namew">
+                <div>Tie :</div>
+                <div id="tiec" class="padd">0</div>
+            </div>
+        </div>
+        <div class="reset">
+            <input id="reset" type="button" value="Reset">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
